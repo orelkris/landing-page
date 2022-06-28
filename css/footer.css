@@ -1,0 +1,11 @@
+.main-footer {
+  background: #070814;
+  height: 8rem;
+  font-size: 1.2rem;
+  color: #fff;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
