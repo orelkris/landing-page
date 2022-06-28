@@ -1,0 +1,27 @@
+.sign-up-content {
+  margin: 6rem;
+}
+
+.sign-up-content p {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+.sign-up-content h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.sign-up-content .box {
+  margin: auto;
+  background: #2ebadd;
+  width: 80%;
+  padding: 2rem;
+  border-radius: 1rem;
+
+  /* Flexbox */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}

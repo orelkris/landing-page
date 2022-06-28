@@ -4,7 +4,7 @@ Color Palette:
 #D4E79E
 #f18f01
 #048BA8
-#2E4057
+#2Ebb
 */
 
 @import url(generic.css);
@@ -12,3 +12,4 @@ Color Palette:
 @import url(header.css);
 @import url(card-content.css);
 @import url(quote-content.css);
+@import url(sign-up-content.css);

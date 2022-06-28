@@ -35,7 +35,7 @@ button {
 }
 
 .container {
-  max-width: 90rem;
+  max-width: 100rem;
   margin: 0 auto;
   padding: 0 1rem;
 }
@@ -54,9 +54,21 @@ button {
 
 .btn-primary:hover {
   background-color: rgba(22, 75, 236, 0.8);
-  color: white;
+  color: #fff;
   cursor: pointer;
 
   /* Transition */
   transition: background-color 1s ease, color 1s ease;
+}
+
+.btn-secondary {
+  background-color: rgba(22, 75, 236, 0.8);
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn-secondary:hover {
+  background-color: #fff;
+  color: rgba(22, 75, 236, 0.8);
+  border: 2px solid rgba(22, 75, 236, 0.8);
 }
