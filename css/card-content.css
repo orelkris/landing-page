@@ -25,7 +25,6 @@
 
 .card {
   text-align: center;
-
   /* Flexbox */
   display: flex;
   flex-direction: column;
@@ -53,4 +52,18 @@
 
   /* Transition */
   transition: box-shadow 0.5s ease;
+
+  animation: background-change 5s alternate infinite;
+}
+
+@keyframes background-change {
+  0% {
+    background: rgb(36, 221, 190);
+  }
+  50% {
+    background: white;
+  }
+  100% {
+    background: rgba(0, 50, 200, 0.8);
+  }
 }
