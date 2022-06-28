@@ -1,6 +1,6 @@
 .main-navbar {
   background: #048ba8;
-  height: 9rem;
+  height: 5rem;
 }
 
 .main-navbar .container {
@@ -53,4 +53,10 @@
 
   /* Transition */
   transition: color 1s ease, background-color 1s ease 0.2s;
+}
+
+@media screen and (max-width: 40rem) {
+  .main-navbar {
+    height: 9rem;
+  }
 }

@@ -1,6 +1,7 @@
 .main-header {
   background: #048ba8;
   height: 35rem;
+  margin-top: -3rem;
 }
 
 .main-header .container {
@@ -50,6 +51,7 @@
 @media screen and (max-width: 40rem) {
   .main-header {
     height: 50rem;
+    padding-top: 1rem;
   }
   .main-header .container {
     display: block;
