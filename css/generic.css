@@ -13,6 +13,9 @@ html {
 body {
   font-size: 2rem;
   font-family: Roboto, sans-serif;
+  max-width: 120rem;
+  margin: 0 auto;
+  border: 1px solid black;
 }
 
 h1,
