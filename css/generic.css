@@ -23,13 +23,40 @@ h3 {
 
 img {
   width: 40rem;
+  padding-right: 1rem;
 }
 
 a {
   text-decoration: none;
 }
 
+button {
+  border: none;
+}
+
 .container {
   max-width: 90rem;
   margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.btn-primary {
+  font-weight: bold;
+  background-color: #fff;
+  padding: 1rem 3rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 3px #000;
+
+  /* Transition */
+  transition: background-color 1s ease, color 1s ease;
+}
+
+.btn-primary:hover {
+  background-color: rgba(22, 75, 236, 0.8);
+  color: white;
+  cursor: pointer;
+
+  /* Transition */
+  transition: background-color 1s ease, color 1s ease;
 }
